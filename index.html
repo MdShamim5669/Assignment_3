@@ -1,11 +1,107 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment_3</title>
-</head>
-<body>
     
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Tailwind CSS  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <!-- Tailwind Css Configuration -->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                primary:'rgb(139, 195, 74)',
+                secondary:'rgb(17, 17, 17)',
+                body:'rgb(248, 246, 243)',
+                accent: 'rgb(106, 151, 57)',
+                body_neutral:'rgb(51, 51, 51)'
+              },
+              fontFamily:{
+                Inter:'Inter',
+              }
+              
+            }
+          }
+        }
+      </script>
+</head>
+<body class="font-Inter">
+    <!-- Header Section Start Here -->
+    <header>
+        <!-- nav Section start here -->
+        <nav class="w-11/12 mx-auto py-5 p-0">
+            <div class="navbar bg-base-100 ">
+                <div class="navbar-start">
+                  <a class="btn btn-ghost text-xl">
+                    <a href="#" class="font-bold text-lg">Rinterio</a>
+                  </a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1 text-lg font-medium">
+                    <li class="hover:text-primary transition-colors duration-300 ease-in-out"><a href="">Home</a></li>
+                    <li class="hover:text-primary transition-colors duration-300 ease-in-out"><a href="">Services</a></li>
+                    <li class="hover:text-primary transition-colors duration-300 ease-in-out"><a href="">Portfolio</a></li>
+                    <li class="hover:text-primary transition-colors duration-300 ease-in-out"><a href="">Blog</a></li>
+                    <li class="hover:text-primary transition-colors duration-300 ease-in-out"><a href="">Contact Us</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                  <div class="lg:flex justify-center items-center gap-4 md:flex md:block lg:block hidden">
+                    <div class="bg-white-700">
+                        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </div>
+                    <div>
+                        <button>
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </button>
+                    </div>
+                    <div>
+                        <button class="bg-green-300 px-2 py-3 rounded-xl">
+                            <span class="font-bold"><a href="#">Book Consult</a></span>
+                            <span><i class="fa-solid fa-arrow-right text-black -rotate-45 bg-black-700"></i></span>
+                        </button>
+                    </div>
+                  </div>
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-lg font-medium right-0">
+                      <li class="hover:text-primary transition-colors duration-300 ease-in-out"><a href="">Home</a></li>
+                      <li class="hover:text-primary transition-colors duration-300 ease-in-out"><a href="">Services</a></li>
+                      <li class="hover:text-primary transition-colors duration-300 ease-in-out"><a href="">Portfolio</a></li>
+                      <li class="hover:text-primary transition-colors duration-300 ease-in-out"><a href="">Blog</a></li>
+                      <li class="hover:text-primary transition-colors duration-300 ease-in-out"><a href="">Contact Us</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+        </nav>
+        <!-- Banner Part Start here -->
+        <section>
+
+        </section>
+    </header>
+    <!-- Main section start here -->
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
